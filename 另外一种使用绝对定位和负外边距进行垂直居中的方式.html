@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>另外一种使用绝对定位和负外边距进行垂直居中的方式</title>
+    <style type="text/css">
+    #box {
+        width: 300px;
+        height: 300px;
+        background: #ddd;
+        position: relative;
+    }
+    #child {
+        width: 50%;
+        height: 30%;
+        background: pink;
+        position: absolute;
+        top: 50%;
+        margin: -15% 0 0 0;
+    }
+    </style>
+</head>
+<body>
+
+
+
+<div id="box">
+    <div id="child">我也是个测试DIV</div>
+</div>
+
+
+
+
+</body>
+</html>
